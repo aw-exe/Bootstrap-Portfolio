@@ -1,39 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF=-8" />
-        <title>Contact Me</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    </head>
-</html>
-       
-    <header>
-        <h1>Ashton Wetsel</h1>
-        <div class="nav-container">
-            <nav><a href="index.html">About Me</a> <a href="./portfolio.html">My Portfolio</a> <a href="./contact.html">Contact Me</a></nav>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1">Ashton Wetsel</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
-    <br>
-
-    <h3>Contact Me</h3>
-
-        <hr>
-    
-        <form id="contact-form" method="post">
-            <input name="name" type="text" class="form-control" placeholder="Name" required> <br>
-
-            <input name="email" type="email" class="form-control" placeholder="Email" required> <br>
-
-            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea> </br>
-
-            <input type="submit" class="form-control submit" value="Submit">
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">   
+                    <div class="form-group">
+                        <label for="Input1">Name</label>
+                        <input name="name" type="text" class="form-control" required>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">   
+                    <div class="form-group">
+                        <label for="Input2">Email Address</label>
+                        <input name="email" type="email" class="form-control" required>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6"> 
+                    <div class="form-group">
+                        <label for="textarea1">Message</label>
+                        <textarea name="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6"> 
+                    <div class="form-group">
+                        <input type="submit" class="form-control submit" value="Submit">
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
         </form>
+    </div>
 
-        <footer>
-            <p>Copyright&#169;</p>
-        </footer>
-
-
+    <footer class="footer">
+            <div class="foot navbar-fixed-bottom">
+                <p>Copyright&#169;</p>
+            </div>
+    </footer>
 </html>
