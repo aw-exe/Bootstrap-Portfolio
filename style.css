@@ -1,3 +1,24 @@
+.navbar{
+    background-color: lightsalmon : !important;
+}
+
 #bio-image {
-    width: 300px;
+    width: 500px;
+}
+
+body {
+    pading-top: 5rem;
+    background: url(./images/koipond.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: white;
 }
