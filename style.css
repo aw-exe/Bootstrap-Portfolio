@@ -1,25 +1,25 @@
-/* .image-thumbnail {
+.image-thumbnail {
     width: 200px;
-} */
+}
 
 #bio-image {
     width: 300px;
     margin-left: 15%;
 }
 
-/* #row-1 {
+#row-1 {
     margin-left: 20%;
     margin-right: 15%;
 }
 
 #row-2 {
     margin-left: 5%;
-} */
+}
 
-#card-boxes {
+/* #card-boxes {
     margin-left: 8%;
     font-family: 'Playfair Display', serif;
-    text-align: center;
+    text-align: center; */
 }
 
 body {
