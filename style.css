@@ -35,6 +35,11 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
 p {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
